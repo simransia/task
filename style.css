@@ -1,0 +1,204 @@
+/*first section styling*/
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 500px;
+}
+
+.navbar-brand{
+font-weight: 500;
+text-shadow: 1px 1px 2px black , -1px -1px 2px black;
+}
+
+#navbarNav li a{
+    color:white;
+    font-weight: 500;
+    text-shadow:1px 1px  2px black;
+}
+
+#icon{
+    color: white;
+    box-shadow:  1px 1px 2px white , -1px -1px 2px white;
+    background-color:rgb(34, 29, 29, 0.5);
+    width: 45px;
+}
+
+.main{
+    padding-top: 9rem;
+    color: white;
+    text-shadow: 2px 2px 2px black , -2px -2px 2px black;
+}
+
+h1~p{
+    font-family:sans-serif;
+    font-size: 1.1rem;
+}
+
+.button{
+    background-color:#ff4500;
+    width: 8rvw;
+    height: 7vh;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    padding: 0px 15px 0px 15px;
+    box-shadow: 2px 2px 2px black , -2px -2px 2px black;
+    color: white;
+    font-weight: 500;
+}
+
+.background{
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*second section styling*/
+
+.content{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+.set-row{
+    height:50vh;
+}
+
+#img-1{
+    background-image:url(./img/solution-preview-small-1.jpg);
+}
+ #img-2{
+    background-image:url(./img/solution-preview-small-ecommerce-development_0.jpg);
+}
+#img-3{
+    background-image:url(./img/solution-preview-small-3.jpg);
+}
+#img-4{
+    background-image: url(./img/solution-preview-small-image-analysis-red.jpg);
+}  
+
+#img-5{
+    background-image:url(./img/solution-preview-small-4.jpg);
+}
+ #img-6{
+    background-image:url(./img/solution-preview-small-5_1.jpg);
+}
+#img-7{
+    background-image:url(./img/solution-preview-small-6.jpg);
+}
+#img-8{
+    background-image: url(./img/solution-preview-small-8_1.jpg);
+}  
+
+/*third section styling*/
+
+#highlighted-1{
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.third-section{
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.third{
+    text-align: center;
+}
+
+#mobile{
+    background-color:rgb(111, 27, 189);
+}
+
+#web{
+    background-color: rgb(71, 71, 199);
+}
+
+#crypto{
+    background-color:#ff4500;
+}
+
+#growth{
+    background-color:rgb(199, 26, 199);
+}
+
+.space{
+    color: white;
+    border-radius: 8px;
+    min-height:18rem;
+    margin-bottom:4vh;
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+
+.side-icons{
+ position:absolute;
+ top:1300px;
+ right: 15px;
+ height: 180px;
+ display: flex;
+ flex-direction: column; 
+ justify-content: space-around; 
+ font-size: 5px;
+}
+
+.icons{
+    position:absolute;
+    bottom: 5px;
+    right:10px;
+}
+
+ion-icon {
+    color:white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 5px;
+  }
+
+  /*fourth section styling*/
+
+  #fourth-section{
+      background-image: url(./img/bg.jpg);
+      background-position:center;
+      background-size: cover;
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .jumbotron{
+      background-color: white;
+      text-align: center;
+      font-family: sans-serif;
+      letter-spacing: 1px;
+      font-size: 1em;
+      margin-top: 2rem;
+  }
+
+  #highlighted-2{
+      font-weight: 700;
+  }
+
+  #btn-2{
+      border: none;
+      border-radius:5px ;
+      width: 150px;
+      height: 40px;
+      background-color: purple;
+      color: white;
+      letter-spacing:4px ;
+  }
