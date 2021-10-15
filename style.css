@@ -8,6 +8,11 @@ header{
     width: 100%;
     height: 500px;
 }
+.navbar-brand{
+        font-size: 1.65vw;
+        font-weight: 500;
+
+}
 
 #navbarNav li a{
     color:white;
@@ -16,7 +21,7 @@ header{
 }
 
 .main{
-    padding-top: 6rem;
+    padding-top: 7rem;
     color: white;
     text-shadow: 2px 2px 2px black , -2px -2px 2px black;
 }
@@ -173,8 +178,8 @@ ion-icon {
       text-align: center;
       font-family: sans-serif;
       letter-spacing: 1px;
-      font-size: 1rem;
-      margin-top: 10vh;
+      font-size: 2vh;
+      margin-top: 5vh;
   }
 
   #highlighted-2{
@@ -184,8 +189,8 @@ ion-icon {
   #btn-2{
       border: none;
       border-radius:5px ;
-      width: 150px;
-      height: 40px;
+      width: 10rem;
+      height: 5vh;
       background-color: purple;
       color: white;
       letter-spacing:4px ;
