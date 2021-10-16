@@ -194,7 +194,7 @@ ion-icon {
   @media screen and (max-width: 490px){
 
     .navbar-brand{
-            font-size: 2.5vw;
+            font-size: 3vw;
             font-weight: 500;
             color: white;
     }
